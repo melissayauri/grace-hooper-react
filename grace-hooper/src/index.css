@@ -17,8 +17,39 @@ header hr{
 
 .principal-info{
   text-align: justify;
-  width: 78%;
+  width: 75%;
   display: inline-block;
   font-size: 14px;
   line-height: 1.6;
+}
+.summary{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-top: 15px;
+  margin-left: 2rem;
+}
+
+.summary-table{
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  font-size: 14px;
+}
+/*Modificando el titulo de la tabla*/
+.summary-table thead th{
+/*aplicando color al fondo*/
+  background-color: #80C4DE;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 16px;
+}
+/*aplicando al primer hijo del padre*/
+.summary-table tbody tr:first-child{
+  text-align: center;
+}
+
+.summary-table tbody th{
+  /*aplicando alineamiento*/
+  text-align: left;
+
 }

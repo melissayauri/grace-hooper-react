@@ -11,7 +11,7 @@ class Encabezado extends React.Component {
          <h1>Grace Hooper</h1>
          <hr/>
        </header>
-    )
+    );
   }
 }
 export default Encabezado

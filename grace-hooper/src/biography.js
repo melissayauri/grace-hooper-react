@@ -13,7 +13,7 @@ const Biography = ({pros}) => {
      <a href="https://en.wikipedia.org/wiki/National_Medal_of_Technology_and_Innovation"target="_blank">National Medal of Technology</a>. On November 22, 2016, she was posthumously awarded the Presidential Medal of Freedom by
      President Barack Obama.</p>
    </main>
-  )
+ );
 }
 
 export default Biography
