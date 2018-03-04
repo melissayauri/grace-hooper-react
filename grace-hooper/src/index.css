@@ -14,3 +14,11 @@ header hr{
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.principal-info{
+  text-align: justify;
+  width: 78%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.6;
+}
