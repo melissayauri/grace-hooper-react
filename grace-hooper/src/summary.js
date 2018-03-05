@@ -1,7 +1,7 @@
 import React from'react'
 import grace from './grace.jpg';
-/* Componente biografia a traves de un función*/
-const Summary = ({pros}) => {
+/* Componente summary a traves de un función*/
+const Summary = ({props}) => {
   return(
     <aside class="summary">
       <table class="summary-table">
@@ -39,5 +39,5 @@ const Summary = ({pros}) => {
   </aside>
   );
 }
-
+/* Exportando el componente*/
 export default Summary

@@ -1,6 +1,6 @@
 import React from'react'
-/* Componente biografia a traves de un función*/
-const Biography = ({pros}) => {
+/* creando el componente biografia a traves de un función*/
+const Biography = ({props}) => {
   return(
     <main class= "principal-info">
      <p><strong>Grace Brewster Murray Hopper</strong> (née <strong>Murray</strong>; December 9, 1906 – January 1, 1992) was an American <a href="https://en.wikipedia.org/wiki/Computer_scientist" target="_blank">computer scientist</a> and <a href="https://en.wikipedia.org/wiki/United_States_Navy" target="_blank">United States</a> Navya <a href="https://en.wikipedia.org/wiki/Rear_admiral_(United_States)" target="_blank">rear admiral</a>.<mark>One of the first programmers of the Harvard Mark I computer</mark>, she was a pioneer of computer programming who invented one of the first compiler related tools. She popularized the idea of machine-independent programming languages, which led to the development of COBOL, an early high-level programming language still in use today.
@@ -15,5 +15,5 @@ const Biography = ({pros}) => {
    </main>
  );
 }
-
+/* Exportando la biografía*/
 export default Biography

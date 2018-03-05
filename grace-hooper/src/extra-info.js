@@ -1,6 +1,6 @@
 import React from'react'
-/* Componente biografia a traves de un función*/
-const ExtraInfo = ({pros}) => {
+/* creando el componente ExtraInfo a traves de un función*/
+const ExtraInfo = ({props}) => {
   return(
     <section>
       <h4>Career</h4>
@@ -18,5 +18,5 @@ const ExtraInfo = ({pros}) => {
       </section>
   );
 }
-
+/* Exportando el componente*/
 export default ExtraInfo

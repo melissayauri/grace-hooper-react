@@ -1,5 +1,5 @@
 import React from'react';
-/* creando el*/
+/* creando el componente header*/
 class Encabezado extends React.Component {
   constructor(args) {
     super(args)
@@ -14,4 +14,5 @@ class Encabezado extends React.Component {
     );
   }
 }
+/* Exportando el encabezado*/
 export default Encabezado
