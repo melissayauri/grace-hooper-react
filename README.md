@@ -7,8 +7,8 @@ El presente trabajo consta en poner en práctica los conocimientos sobre react p
 
   Es una librería Javascript focalizada en el desarrollo de interfaces de usuario
 
-  - Componentes con ES6: Se utiliza las classes y se puede heredar a través del objeto `React.Component`.
-  
+  - Componentes con ES6: Se utiliza las classes y se hereda a través del objeto `React.Component`.
+
   - Componente con función: Es otra forma de crear un componente y se utiliza cuando el componente es puramente representacional o sin estado.
 
 
@@ -23,7 +23,7 @@ Se utiliza el generador `create-react-app`
  [Guía](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
 
 ## Componentes
-1. Componente Encabezado
+**1. Componente Encabezado**
 
    Es un componente con ES6
 ```javascript
@@ -46,7 +46,7 @@ export default Encabezado
 ```
 ![Encabezado](assets/img/encabezado.PNG)
 
-2. Componente biography
+**2. Componente biography**
 
  Es un componenete como función que muestra la biografía de Grace Hooper
 
@@ -71,7 +71,7 @@ export default Biography
 ```
 ![Biography](assets/img/biography.PNG)
 
-3. Componente summary
+**3. Componente summary**
 
    Es un componenete como función que muestra información resumida de Grace Hooper como nickname, nacimiento y muerte.
 
@@ -121,7 +121,7 @@ export default Biography
    ```
    ![summary](assets/img/summary.PNG)
 
-4. Componente ExtraInfo
+**4. Componente ExtraInfo**
 
    Es un componenete como función que muestra información extra como detalles de su carrera y su frase más célebre.
 
